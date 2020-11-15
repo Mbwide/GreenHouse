@@ -71,8 +71,8 @@ int main(void)
 	Usart1_Init(9600);     //串口1功能初始化，波特率9600
 	Usart2_Init(115200);   //串口2功能初始化，波特率115200	
 	TIM4_Init(500,7200);   //TIM4初始化，定时时间 500*7200*1000/72000000 = 50ms
-	LED_Init();			   		 //补光灯初始化
-	FAN_Init();			       //风扇初始化
+	LED_Init();			   //补光灯初始化
+	FAN_Init();			   //风扇初始化
 	WAT_Init();	           //水泵初始化
 	KEY_Init();            //按键初始化
 	IIC_BY30_Init();       //初始化IIC接口 光照强度
